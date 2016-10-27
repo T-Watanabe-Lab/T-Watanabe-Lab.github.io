@@ -517,6 +517,7 @@ function draw(id) {
   var ctx2 = canvas2.getContext('2d');
   var num=Math.max.apply(null, id[0])+sp;
    if(pos+num*7>791){CR()}//改行チェック
+   
 	for (var int = 0; int < id[0].length; int++){
 	var x=id[0][int];
 	var y=id[1][int];
@@ -595,7 +596,7 @@ sp=Number(SP)}
 function convert(){
   var edicode = "";
   var len = code.length;
-  for(i=0; i<len; i++){
+  for(var i=0; i<len; i++){
     var X = code[i] % 1000;
     var Y = (code[i] - X) / 1000;
   	console.log(X);
