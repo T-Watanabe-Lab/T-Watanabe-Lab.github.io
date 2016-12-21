@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="shogi tactile diagram generator">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>tactileGraph.js</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/T-Watanabe-Lab/T-Watanabe-Lab.github.io">View on GitHub</a>
+
+          <h1 id="project_title">将棋局面図触知化アプリケーション</h1>
+          <h2 id="project_tagline">TACTILE SHOGI DIAGRAM GENERATOR</h2>
+
+            <!--<section id="downloads">
+              <a class="zip_download_link" href="https://github.com/HirotsuguKaga/tactileGraph.js/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/HirotsuguKaga/tactileGraph.js/tarball/master">Download this project as a tar.gz file</a>
+            </section>-->
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>概要</h3>
+
+<p>KIFファイル（BODファイル）の局面図情報を読み込んで触図データを作成するアプリケーションです。<br>
+（局面図情報のない棋譜のみのKIFファイルからは触図を作成できません）<br>
+<br>
+
+　<strong><a href="https://t-watanabe-lab.github.io/shogi.html">将棋局面図触知化アプリケーション</a></strong>
+</p>
+<h3>使い方</h3>
+<p>ファイル選択ボタンからファイルを読み込むと画面に点図と立体コピーそれぞれの触図が表示されます。<br>
+「EDLファイルをダウンロード」、「立体コピー用画像をダウンロード」、「map2ESA用画像をダウンロード」という3つのリンクをクリック
+することで、それぞれの触図データがダウンロードできます。<br>
+<br>
+ブラウザのChromeを使用している場合は、一度に複数のKIFファイルを選択することにより、複数のEDLファイルを一括してダウンロードす
+ることができます。</p>
+<h3>触図の説明</h3>
+<p>触図は縦置きで、左上にファイル名、上部の枠の中に後手の持駒、中央に盤面、下部の枠の中に先手の持駒がそれぞれ点字で表わされます
+。<br>
+盤面の後手の駒は、駒名の前に3,6の点からなる繋ぎ符を置くことで先手と区別します。<br>
+各駒の表記は、以下の凡例の様に点字1マスに省略しています。</p>
+<h3>凡例</h3>
+<dl><dt>王将</dt><dd>め</dd>
+<dt>飛車</dt><dd>ひ</dd>
+<dt>角行</dt><dd>か</dd>
+<dt>金将</dt><dd>き</dd>
+<dt>銀将</dt><dd>し</dd>
+<dt>桂馬</dt><dd>け</dd>
+<dt>香車</dt><dd>こ</dd>
+<dt>歩兵</dt><dd>ふ</dd>
+<dt>龍王</dt><dd>る</dd>
+<dt>龍馬</dt><dd>ま</dd>
+<dt>成銀</dt><dd>み</dd>
+<dt>成桂</dt><dd>せ</dd>
+<dt>成香</dt><dd>そ</dd>
+<dt>と金</dt><dd>と</dd></dl>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>新潟大学 渡辺研究室</p>
+        <p class="copyright">Tactile shogi diagram generator maintained by <a href="https://github.com/HirotsuguKaga">HirotsuguKaga</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
